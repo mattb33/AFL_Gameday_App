@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Clock, Plus, X, Settings, Upload, Edit2, Save } from 'lucide-react';
 
 const AFLGamedayApp = () => {
-  const [quarterLength, setQuarterLength] = useState(1800); // 30 minutes in seconds
+  const [quarterLength, setQuarterLength] = useState(720); // 12 minutes in seconds
   const [quarterLengthInput, setQuarterLengthInput] = useState('30');
   const [currentQuarter, setCurrentQuarter] = useState(1);
   const [timeElapsed, setTimeElapsed] = useState(0);
@@ -830,24 +830,26 @@ const AFLGamedayApp = () => {
 };
 
 const DEFAULT_TEAM_LIST = [
-  { id: 1, name: 'Jack Martin', positions: ['Forward', 'Wing'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 2, name: 'Tom Lynch', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 3, name: 'Shai Bolton', positions: ['Forward', 'Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 4, name: 'Dustin Martin', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 5, name: 'Trent Cotchin', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 6, name: 'Dion Prestia', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 7, name: 'Jayce Graham', positions: ['Midfielder', 'Defender'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 8, name: 'Kane Lambert', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 9, name: 'Nick Vlastuin', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 10, name: 'Dan Rioli', positions: ['Defender', 'Wing'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 11, name: 'Dylan Grimes', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 12, name: 'Jayden Short', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 13, name: 'Alex Rance', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 14, name: 'Brandon Ellis', positions: ['Wing'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 15, name: 'Ivan Soldo', positions: ['Ruck'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 16, name: 'Toby Nankervis', positions: ['Ruck'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 17, name: 'Josh Caddy', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
-  { id: 18, name: 'Jack Ross', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 1, name: 'Sully', positions: ['Wing'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 2, name: 'Jake', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 3, name: 'Isaac', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 4, name: 'Aiden', positions: ['Ruck', 'Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 5, name: 'Sam G', positions: ['Midfielder', 'Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 6, name: 'Noah H', positions: ['Wing'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 7, name: 'Levi', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 8, name: 'Sebi', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 9, name: 'Grayson', positions: ['Forward', 'Ruck'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 10, name: 'Hunter', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 11, name: 'Jarrod', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 12, name: 'Noah Mc', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 13, name: 'Nixon', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 14, name: 'Matt', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 15, name: 'Darcy', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 16, name: 'Aston', positions: ['Defender'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 17, name: 'Rayan', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 18, name: 'Sam T', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 19, name: 'Liam', positions: ['Forward'], playing: true, present: true, injured: false, sentrOff: false },
+  { id: 20, name: 'Ned', positions: ['Midfielder'], playing: true, present: true, injured: false, sentrOff: false },
 ];
 
 export default AFLGamedayApp;
