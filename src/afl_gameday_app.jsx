@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, Plus, Minus, X, RotateCcw, Users, AlertCircle, Settings, Upload, Edit2, Save, ChevronDown } from 'lucide-react';
+import { Clock, Plus, X, Settings, Upload, Edit2, Save } from 'lucide-react';
 
 const AFLGamedayApp = () => {
   const [quarterLength, setQuarterLength] = useState(1800); // 30 minutes in seconds
@@ -44,7 +44,7 @@ const AFLGamedayApp = () => {
       }
     });
     setBenchTracking(tracking);
-  }, []);
+  }, [teamList]);
 
   const timeRemaining = quarterLength - timeElapsed;
   const minutesElapsed = Math.floor(timeElapsed / 60);
