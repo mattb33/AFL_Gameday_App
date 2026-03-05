@@ -1,0 +1,19 @@
+ID,NAME,POSITIONS,PLAYING,PRESENT,INJURED,SENTOFF
+1,Jack Martin,Forward;Wing,true,true,false,false
+2,Tom Lynch,Forward,true,true,false,false
+3,Shai Bolton,Forward;Midfielder,true,true,false,false
+4,Dustin Martin,Midfielder,true,true,false,false
+5,Trent Cotchin,Midfielder,true,true,false,false
+6,Dion Prestia,Midfielder,true,true,false,false
+7,Jayce Graham,Midfielder;Defender,true,true,false,false
+8,Kane Lambert,Midfielder,true,true,false,false
+9,Nick Vlastuin,Defender,true,true,false,false
+10,Dan Rioli,Defender;Wing,true,true,false,false
+11,Dylan Grimes,Defender,true,true,false,false
+12,Jayden Short,Defender,true,true,false,false
+13,Alex Rance,Defender,true,true,false,false
+14,Brandon Ellis,Wing,true,true,false,false
+15,Ivan Soldo,Ruck,true,true,false,false
+16,Toby Nankervis,Ruck,true,true,false,false
+17,Josh Caddy,Forward,true,true,false,false
+18,Jack Ross,Defender,true,true,false,false
